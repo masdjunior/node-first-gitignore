@@ -1,5 +1,7 @@
 import React from 'react'
 
+import People from `./assets/people.svg`
+
 import {
     Container,
     H1,
@@ -18,7 +20,8 @@ function App() {
 
         <Container>
 
-            <Image />
+import People from `./assets/people.svg`
+            <Image alt='logo-imagem-People' src={People}/>
             <ContainerItens>
                 <H1>Olá!</H1>
 
